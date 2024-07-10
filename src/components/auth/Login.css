@@ -1,0 +1,82 @@
+.login__container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.login__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.login__form {
+    width: 100%;
+    max-width: 300px; 
+}
+
+.login__label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.login__input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    width: 100%; 
+}
+
+.login__input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.login__button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; 
+    max-width: 200px; 
+}
+
+.login__button:hover {
+    background-color: #0056b3;
+}
+
+.login__error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.login__message {
+    margin-top: 10px;
+    color: #777;
+    text-align: center;
+}
+
+.login__message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login__message a:hover {
+    text-decoration: underline;
+}

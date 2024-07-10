@@ -1,0 +1,82 @@
+.signup__container {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup__title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signup__form {
+    width: 100%;
+    max-width: 300px;
+}
+
+.signup__label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.signup__input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+.signup__input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.signup__button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+}
+
+.signup__button:hover {
+    background-color: #0056b3;
+}
+
+.signup__message {
+    margin-top: 10px;
+    color: #777;
+    text-align: center;
+}
+
+.signup__message a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.signup__message a:hover {
+    text-decoration: underline;
+}
+
+.signup__error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
